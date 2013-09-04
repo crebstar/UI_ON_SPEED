@@ -10,27 +10,132 @@
     <Filter Include="Resources">
       <UniqueIdentifier>{651eeda2-3721-4da0-95db-69885242aabd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\Protocols">
+      <UniqueIdentifier>{c49e1474-7769-4978-8e88-0475187fc8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes">
+      <UniqueIdentifier>{70dfe333-2750-4bc8-b8b2-324868659814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\Base Classes">
+      <UniqueIdentifier>{159d48db-f752-407c-947c-f327b7078855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\Speed">
+      <UniqueIdentifier>{61e981e6-6985-4440-a5c9-2bf316890080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Singleton">
+      <UniqueIdentifier>{dbb97aaf-474e-45c0-970e-9f2e1567e14e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Constants">
+      <UniqueIdentifier>{6f0af7ae-69e0-4774-ac4c-033b813b292e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\Menus">
+      <UniqueIdentifier>{aa0d7676-b80c-4ab4-84cc-615f5f105359}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>win32</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\AppDelegate.cpp">
-      <Filter>Classes</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\POCActionLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\POCTestingScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\POCUILayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UIDelegateProtocol.cpp">
+      <Filter>Classes\Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BoulderActionLayer.cpp">
+      <Filter>Classes\Scenes\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BoulderLayer.cpp">
+      <Filter>Classes\Scenes\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BoulderScene.cpp">
+      <Filter>Classes\Scenes\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BoulderUILayer.cpp">
+      <Filter>Classes\Scenes\Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SoundManager.cpp">
+      <Filter>Classes\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager.cpp">
+      <Filter>Classes\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameConstants.cpp">
+      <Filter>Classes\Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenuLayer.cpp">
+      <Filter>Classes\Scenes\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenuBackgroundLayer.cpp">
+      <Filter>Classes\Scenes\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenuScene.cpp">
+      <Filter>Classes\Scenes\Menus</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
       <Filter>win32</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\AppDelegate.h">
-      <Filter>Classes</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\POCActionLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\POCTestingScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\POCUILayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UIDelegateProtocol.h">
+      <Filter>Classes\Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BoulderActionLayer.h">
+      <Filter>Classes\Scenes\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BoulderLayer.h">
+      <Filter>Classes\Scenes\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BoulderScene.h">
+      <Filter>Classes\Scenes\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BoulderUILayer.h">
+      <Filter>Classes\Scenes\Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SoundManager.h">
+      <Filter>Classes\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager.h">
+      <Filter>Classes\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameConstants.h">
+      <Filter>Classes\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuLayer.hpp">
+      <Filter>Classes\Scenes\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuBackgroundLayer.hpp">
+      <Filter>Classes\Scenes\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuScene.hpp">
+      <Filter>Classes\Scenes\Menus</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,6 +1,8 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
 
+#include "MainMenuScene.hpp"
+
 USING_NS_CC;
 
 AppDelegate::AppDelegate() {
@@ -27,8 +29,10 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // create a scene. it's an autorelease object
     CCScene *pScene = HelloWorld::scene();
 
+	boulderas::MainMenuScene * mainMenuScene = boulderas::MainMenuScene::createScene();
+
     // run
-    pDirector->runWithScene(pScene);
+    pDirector->runWithScene(mainMenuScene);
 
     return true;
 }
