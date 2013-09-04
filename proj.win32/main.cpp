@@ -16,6 +16,7 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
     AppDelegate app;
     CCEGLView* eglView = CCEGLView::sharedOpenGLView();
     eglView->setViewName("UI_ON_SPEED");
-    eglView->setFrameSize(480, 320);
+    //eglView->setFrameSize(480, 320);
+	eglView->setFrameSize(1024, 768);
     return CCApplication::sharedApplication()->run();
 }

@@ -72,7 +72,14 @@ bool HelloWorld::init()
 
     // add the sprite as a child to this layer
     this->addChild(pSprite, 0);
-    
+
+
+	CCSprite * testSprite = CCSprite::create("TestSprite.png");
+	testSprite->setPosition( ccp(-300, -300));
+	CCMoveTo * mov = CCMoveTo::create( 7.0f, ccp(visibleSize.width, visibleSize.height));
+	this->addChild(testSprite);
+	testSprite->runAction(mov);
+
     return true;
 }
 
