@@ -28,6 +28,17 @@ protected:
 private:
 	DISALLOW_COPY_AND_ASSIGN(MainMenuLayer);
 
+	void loadAllMenus();
+
+	void animateInMainMenu();
+
+	cocos2d::CCSprite * m_mainCar;
+
+	cocos2d::CCMenu * m_mainMenu;
+	cocos2d::CCMenu * m_difficultyMenu;
+	cocos2d::CCMenu * m_socialSignsMenu;
+	cocos2d::CCMenu * m_welcomeMenu;
+
 	void addMenuItemsToLayer();
 
 	// a selector callback

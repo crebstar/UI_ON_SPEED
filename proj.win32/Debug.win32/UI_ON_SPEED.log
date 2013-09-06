@@ -1,4 +1,4 @@
-﻿Build started 9/4/2013 4:25:36 PM.
+﻿Build started 9/6/2013 3:13:45 PM.
      1>Project "D:\Cocos2d-x\cocos2d-x-2.1.4\cocos2d-x-2.1.4\projects\UI_ON_SPEED\proj.win32\UI_ON_SPEED.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug.win32\UI_ON_SPEED.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -49,4 +49,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.80
+Time Elapsed 00:00:02.60
